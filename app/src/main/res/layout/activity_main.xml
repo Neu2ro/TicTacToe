@@ -10,7 +10,9 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Jay Nagpal"
+        android:text="Vivek Balani"
+        android:fontFamily="cursive"
+        android:textAllCaps="true"
         android:textSize="40sp"
         android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
