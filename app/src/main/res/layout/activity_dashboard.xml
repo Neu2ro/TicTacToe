@@ -4,14 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"
+    tools:context=".Dashboard"
     android:background="@color/background">
 
     <TextView
         android:id="@+id/textfiled1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Welcome to "
+        android:text="Choose a grid"
         android:textSize="70sp"
         android:textStyle="bold"
         android:layout_centerHorizontal="true"
@@ -19,23 +19,28 @@
         android:textColor="@color/text"
         android:fontFamily="cursive"/>
 
-    <TextView
-        android:id="@+id/textfiled2"
+    <androidx.appcompat.widget.AppCompatButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Tic Tac Toe"
-        android:textSize="90sp"
+        android:padding="15dp"
+        android:text="@string/_3_x_3"
         android:textStyle="bold"
+        android:fontFamily="cursive"
+        android:textSize="40sp"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="180dp"
-        android:textColor="@color/text"
-        android:fontFamily="cursive"/>
+        android:background="@drawable/custom_button"
+        android:layout_marginTop="350dp"/>
 
-    <com.airbnb.lottie.LottieAnimationView
+    <androidx.appcompat.widget.AppCompatButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:lottie_rawRes="@raw/controller"
-        app:lottie_autoPlay="true"
-        android:layout_marginTop="350dp"/>
+        android:padding="15dp"
+        android:text="@string/_9_x_9"
+        android:textStyle="bold"
+        android:fontFamily="cursive"
+        android:textSize="40sp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/custom_button"
+        android:layout_marginTop="450dp"/>
 
 </RelativeLayout>
