@@ -29,6 +29,13 @@ public class Dashboard extends AppCompatActivity {
             }
         });
 
+        gridNine.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(Dashboard.this, GridNineDashboard.class);
+                startActivity(intent);
+            }
+        });
 
     }
 }
