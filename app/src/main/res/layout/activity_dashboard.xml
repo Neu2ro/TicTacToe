@@ -20,6 +20,7 @@
         android:fontFamily="cursive"/>
 
     <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/togridthree"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:padding="15dp"
@@ -33,6 +34,7 @@
         android:layout_marginTop="250dp"/>
 
     <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/togridnine"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:padding="15dp"
