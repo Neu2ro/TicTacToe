@@ -1,6 +1,7 @@
 package com.example.tictactoe;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.AppCompatButton;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -9,6 +10,7 @@ import android.view.WindowManager;
 import android.widget.Button;
 
 public class Dashboard extends AppCompatActivity {
+
 
     Button gridThree, gridNine;
 
@@ -23,7 +25,7 @@ public class Dashboard extends AppCompatActivity {
 
         gridThree.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View view) {
+            public void onClick(View v) {
                 Intent intent = new Intent(Dashboard.this, GridThreeDashboard.class);
                 startActivity(intent);
             }
@@ -31,7 +33,7 @@ public class Dashboard extends AppCompatActivity {
 
         gridNine.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View view) {
+            public void onClick(View v) {
                 Intent intent = new Intent(Dashboard.this, GridNineDashboard.class);
                 startActivity(intent);
             }
