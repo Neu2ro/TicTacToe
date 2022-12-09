@@ -26,10 +26,11 @@
         android:text="@string/_3_x_3"
         android:textStyle="bold"
         android:fontFamily="cursive"
-        android:textSize="40sp"
+        android:textSize="80sp"
+        android:textColor="@color/text"
         android:layout_centerHorizontal="true"
         android:background="@drawable/custom_button"
-        android:layout_marginTop="350dp"/>
+        android:layout_marginTop="250dp"/>
 
     <androidx.appcompat.widget.AppCompatButton
         android:layout_width="wrap_content"
@@ -38,9 +39,10 @@
         android:text="@string/_9_x_9"
         android:textStyle="bold"
         android:fontFamily="cursive"
-        android:textSize="40sp"
+        android:textSize="80sp"
+        android:textColor="@color/text"
         android:layout_centerHorizontal="true"
         android:background="@drawable/custom_button"
-        android:layout_marginTop="450dp"/>
+        android:layout_marginTop="400dp"/>
 
 </RelativeLayout>
