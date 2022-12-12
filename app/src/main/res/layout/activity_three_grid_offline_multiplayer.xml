@@ -8,25 +8,27 @@
     android:background="@color/background">
 
     <LinearLayout
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         android:layout_centerHorizontal="true"
+        android:layout_marginHorizontal="30dp"
         android:layout_marginTop="100dp">
 
         <LinearLayout
             android:id="@+id/playeronelayout"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
             android:orientation="vertical"
             android:gravity="center_horizontal"
-            android:background="@drawable/custom_add_player"
+            android:background="@drawable/custom_current_player"
             android:layout_marginEnd="5dp"
+            android:layout_weight="0.5"
             android:padding="5dp">
 
             <TextView
                 android:id="@+id/playeronename"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="cursive"
                 android:text="Player One"
@@ -34,28 +36,33 @@
                 android:textColor="@color/text"
                 android:textSize="30sp"
                 android:textStyle="bold"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center_horizontal"
                 android:layout_marginHorizontal="15dp"/>
 
             <ImageView
                 android:layout_width="40dp"
                 android:layout_height="40dp"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center_horizontal"
                 android:src="@drawable/cross"/>
 
         </LinearLayout>
 
         <LinearLayout
             android:id="@+id/playertwolayout"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
             android:orientation="vertical"
             android:gravity="center_horizontal"
+            android:layout_weight="0.5"
             android:background="@drawable/custom_add_player"
             android:layout_marginStart="5dp"
             android:padding="5dp">
 
             <TextView
                 android:id="@+id/playertwoname"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="15dp"
                 android:fontFamily="cursive"
@@ -63,11 +70,15 @@
                 android:maxLines="1"
                 android:textColor="@color/text"
                 android:textSize="30sp"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center_horizontal"
                 android:textStyle="bold"/>
 
             <ImageView
                 android:layout_width="40dp"
                 android:layout_height="40dp"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center_horizontal"
                 android:src="@drawable/circle"/>
 
         </LinearLayout>
@@ -79,7 +90,7 @@
         android:layout_height="wrap_content"
         android:orientation="vertical"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="250dp"
+        android:layout_marginTop="270dp"
         android:background="@drawable/grid_border"
         android:padding="5dp">
 
@@ -92,21 +103,24 @@
                 android:id="@+id/slot1"
                 android:layout_width="100dp"
                 android:layout_height="100dp"
-                android:layout_margin="5dp"
+                android:layout_margin="2.5dp"
+                android:padding="15dp"
                 android:background="@drawable/custom_player_space"/>
 
             <ImageView
                 android:id="@+id/slot2"
                 android:layout_width="100dp"
                 android:layout_height="100dp"
-                android:layout_margin="5dp"
+                android:layout_margin="2.5dp"
+                android:padding="15dp"
                 android:background="@drawable/custom_player_space" />
 
             <ImageView
                 android:id="@+id/slot3"
                 android:layout_width="100dp"
                 android:layout_height="100dp"
-                android:layout_margin="5dp"
+                android:layout_margin="2.5dp"
+                android:padding="15dp"
                 android:background="@drawable/custom_player_space"/>
 
         </LinearLayout>
@@ -120,21 +134,24 @@
                 android:id="@+id/slot4"
                 android:layout_width="100dp"
                 android:layout_height="100dp"
-                android:layout_margin="5dp"
+                android:layout_margin="2.5dp"
+                android:padding="15dp"
                 android:background="@drawable/custom_player_space"/>
 
             <ImageView
                 android:id="@+id/slot5"
                 android:layout_width="100dp"
                 android:layout_height="100dp"
-                android:layout_margin="5dp"
+                android:layout_margin="2.5dp"
+                android:padding="15dp"
                 android:background="@drawable/custom_player_space"/>
 
             <ImageView
                 android:id="@+id/slot6"
                 android:layout_width="100dp"
                 android:layout_height="100dp"
-                android:layout_margin="5dp"
+                android:layout_margin="2.5dp"
+                android:padding="15dp"
                 android:background="@drawable/custom_player_space"/>
 
         </LinearLayout>
@@ -148,27 +165,28 @@
                 android:id="@+id/slot7"
                 android:layout_width="100dp"
                 android:layout_height="100dp"
-                android:layout_margin="5dp"
+                android:layout_margin="2.5dp"
+                android:padding="15dp"
                 android:background="@drawable/custom_player_space"/>
 
             <ImageView
                 android:id="@+id/slot8"
                 android:layout_width="100dp"
                 android:layout_height="100dp"
-                android:layout_margin="5dp"
+                android:layout_margin="2.5dp"
+                android:padding="15dp"
                 android:background="@drawable/custom_player_space"/>
 
             <ImageView
                 android:id="@+id/slot9"
                 android:layout_width="100dp"
                 android:layout_height="100dp"
-                android:layout_margin="5dp"
+                android:layout_margin="2.5dp"
+                android:padding="15dp"
                 android:background="@drawable/custom_player_space"/>
 
         </LinearLayout>
 
     </LinearLayout>
-
-
 
 </RelativeLayout>
