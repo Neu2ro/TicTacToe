@@ -26,7 +26,7 @@ public class Dashboard extends AppCompatActivity {
         gridThree.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(Dashboard.this, GridThreeDashboard.class);
+                Intent intent = new Intent(Dashboard.this, ThreeOfflineMultiplayer.class);
                 startActivity(intent);
             }
         });
@@ -34,7 +34,7 @@ public class Dashboard extends AppCompatActivity {
         gridNine.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(Dashboard.this, GridNineDashboard.class);
+                Intent intent = new Intent(Dashboard.this, NineOfflinemultiplayer.class);
                 startActivity(intent);
             }
         });

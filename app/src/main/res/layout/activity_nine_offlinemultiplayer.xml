@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NineOfflinemultiplayer">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Player's name"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:textColor="@color/text"
+        android:fontFamily="cursive"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_marginHorizontal="15dp"
+        android:layout_marginTop="250dp"
+        android:background="@drawable/custom_add_player">
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/cross"
+            android:layout_marginStart="10dp"/>
+
+        <EditText
+            android:id="@+id/playeronename"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:fontFamily="cursive"
+            android:hint="Player one"
+            android:inputType="text"
+            android:maxLines="1"
+            android:textColor="@color/text"
+            android:textColorHint="@color/text"
+            android:textSize="60sp"
+            android:textStyle="bold"
+            android:layout_marginEnd="10dp"
+            android:background="@color/transparent"
+            android:layout_marginVertical="10dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_marginHorizontal="15dp"
+        android:layout_marginTop="370dp"
+        android:background="@drawable/custom_add_player">
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/circle"
+            android:layout_marginStart="10dp"/>
+
+        <EditText
+            android:id="@+id/playertwoname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:fontFamily="cursive"
+            android:hint="Player Two"
+            android:inputType="text"
+            android:maxLines="1"
+            android:textColor="@color/text"
+            android:textColorHint="@color/text"
+            android:textSize="60sp"
+            android:textStyle="bold"
+            android:layout_marginEnd="10dp"
+            android:background="@color/transparent"
+            android:layout_marginVertical="10dp"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/statofflinemultiplayer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/custom_button"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="520dp"
+        android:text="    Go    "
+        android:textAllCaps="true"
+        android:textStyle="bold"
+        android:fontFamily="cursive"
+        android:textSize="70sp"
+        android:textColor="@color/text"/>
+
+</RelativeLayout>
