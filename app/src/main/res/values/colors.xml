@@ -10,5 +10,6 @@
     <color name="text">#3700B4</color>
     <color name="background">#B3FFF47D</color>
     <color name="transparent">#00000000</color>
+    <color name="red">#CBFF0000</color>
 
 </resources>
