@@ -19,7 +19,7 @@ public class NineOfflinemultiplayer extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_nine_offlinemultiplayer);
+        setContentView(R.layout.activity_nine_offline_multiplayer);
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,WindowManager.LayoutParams.FLAG_FULLSCREEN);
 
         pone = findViewById(R.id.playeronename);
