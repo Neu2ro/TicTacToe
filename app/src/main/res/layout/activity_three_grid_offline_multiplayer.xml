@@ -135,8 +135,8 @@
                 android:layout_width="100dp"
                 android:layout_height="100dp"
                 android:layout_margin="2.5dp"
-                android:padding="15dp"
-                android:background="@drawable/custom_player_space"/>
+                android:background="@drawable/custom_player_space"
+                android:padding="15dp" />
 
             <ImageView
                 android:id="@+id/slot5"
